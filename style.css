@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f4f4f4;
+}
+#app{
+    width: 25%;
+    height: 50%;
+}
+.container {
+    max-width: 1500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input{
+    width: 89%;
+    border-radius: 3px;
+
+}
+.inputclass{
+    margin: 10px;
+}
+#signupbutton{
+    width: 89%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #625BF7;
+    color: #fff;
+}
+#text{
+    color: #625BF7;
+    text-align: center;
+}
+#logoutBtn{
+    width: 89%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #625BF7;
+    color: #fff;
+    margin-left: 25px;
+}
+#signupbutton:hover{
+    background-color:#4a47bf;
+}
+#logoutBtn:hover {
+    background-color:#4a47bf; /* Change the background color on hover */
+}
+
+.center{
+    text-align: center;
+}
+.success {
+    color: #4a47bf;
+}
+
+.error {
+    color: red;
+}
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: block; /* To remove default image alignment */
+    margin: 0 auto;  /* Center the image horizontally */
+}
+
